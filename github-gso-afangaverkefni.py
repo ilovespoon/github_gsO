@@ -18,3 +18,7 @@ vinnslutexti3=input("Bættu við enn örðum texta í skránna")
 minskra.write(vinnslutexti3+"\n")
 minskra.close
 
+minskra=open(skjalanafnid, "a")
+minskra.read(skjalanafnid())
+minskra.close
+
